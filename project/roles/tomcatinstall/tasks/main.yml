@@ -53,4 +53,4 @@
   wait_for: port={{http_port}}
 
 - name: Deploy War File
-  maven_artifact: group_id=org.harsha artifact_id=ciproject extension=war repository_url=http://ec2-18-188-137-58.us-east-2.compute.amazonaws.com:8081/repository/maven-releases/ username=admin password=admin123  dest=/usr/share/tomcat/webapps/
+  maven_artifact: group_id=org.sonatype.mavenbook artifact_id=simple_webapp extension=war repository_url=http://ec2-18-188-137-58.us-east-2.compute.amazonaws.com:8081/repository/maven-releases/ username=admin password=admin123  dest=/usr/share/tomcat/webapps/
